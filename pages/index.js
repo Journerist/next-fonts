@@ -1,3 +1,5 @@
+import './my-styles.css'
+
 const HomePage = () => {
   return (
     <div>
@@ -19,6 +21,10 @@ const HomePage = () => {
       <h3>Heading 3</h3>
     </div>
   );
+};
+
+HomePage.getInitialProps = () => {
+  return {};
 };
 
 export default HomePage;
